@@ -15,10 +15,10 @@
                 default_layer {
 /**
 -----------------------------------------------------------------------------------------
-| TAB  |  Q  |  W  |  E  |  R  |  T  |   |  Y  |  U   |  I  |  O  |  P  | BKSP |
-| CTRL |  A  |  S  |  D  |  F  |  G  |   |  H  |  J   |  K  |  L  |  ;: |  '"  |
-| SHFT |  Z  |  X  |  C  |  V  |  B  |   |  N  |  M   |  ,  |  .  |  /  | ESC  |
-                   | ALT | LWR | ENT |   | SPC | RSE  | GUI |
+| TAB  |  Q  |  W  |  E  |  R  |  T  | * |  Y  |  U   |  I  |  O  |  P  | BKSP |
+| CTRL |  A  |  S  |  D  |  F  |  G  | * |  H  |  J   |  K  |  L  |  ;: |  '"  |
+| SHFT |  Z  |  X  |  C  |  V  |  B  | * |  N  |  M   |  ,  |  .  |  /  | ESC  |
+                   | ALT | LWR | ENT | * | SPC | RSE  | GUI |
 */
                         bindings = <
    &kp TAB   &kp Q &kp W &kp E &kp R &kp T   &kp Y &kp U  &kp I     &kp O   &kp P    &kp BSPC
@@ -31,10 +31,10 @@
                 lower_layer {
 /**
 -----------------------------------------------------------------------------------------
-| TAB  | BT1 | BT2 | BT3 | BT4 | BT5 |   |  7& |  8* |  9( |  0) |  `~ | BKSP |
-| CTRL |     | MUTE| VOLU| VOLD|     |   |  4$ |  5% |  6^ |  [{ |  ]} |  \|  |
-| SHFT |     | PREV| PLAY| NEXT|     |   |  1! |  2@ |  3# |  -_ |  =+ | ESC  |
-                   | ALT |     | ENT |   | SPC |     | GUI |
+| TAB  | BT1 | BT2 | BT3 | BT4 | BT5 | * |  7& |  8* |  9( |  0) |  `~ | BKSP |
+| CTRL |     | MUTE| VOLU| VOLD|     | * |  4$ |  5% |  6^ |  [{ |  ]} |  \|  |
+| SHFT |     | PREV| PLAY| NEXT|     | * |  1! |  2@ |  3# |  -_ |  =+ | ESC  |
+                   | ALT |     | ENT | * | SPC |     | GUI |
 */
                         bindings = <
    &kp TAB    &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4   &kp N7 &kp N8 &kp N9 &kp N0    &kp GRAVE &kp BSPC
@@ -47,10 +47,10 @@
                 raise_layer {
 /**
 -----------------------------------------------------------------------------------------
-|  TAB |     |     |     |     |     |   | BKSP|  U  | DEL |     |     | BKSP |
-| CTRL |     |     |     |     |     |   |  L  |  D  |  R  |     |     |      |
-| SHFT |     |     |     |     |     |   |     |     |     |     |     | ESC  |
-                   | ALT |     | ENT |   | SPC |     | GUI |
+|  TAB |     |     |     |     |     | * | BKSP|  U  | DEL |     |     | BKSP |
+| CTRL |     |     |     |     |     | * |  L  |  D  |  R  |     |     |      |
+| SHFT |     |     |     |     |     | * |     |     |     |     |     | ESC  |
+                   | ALT |     | ENT | * | SPC |     | GUI |
 */
                         bindings = <
    &kp  TAB  &trans   &trans &trans   &trans   &trans      &kp BSPC  &kp UP   &kp DEL   &trans &trans &kp BSPC
